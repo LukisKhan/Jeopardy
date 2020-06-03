@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1FD6F82485FDEA00062EF3 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FD6F72485FDEA00062EF3 /* HeaderCollectionReusableView.swift */; };
+		1E1FD6FA248612D200062EF3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1FD6F9248612D200062EF3 /* DetailViewController.swift */; };
+		1E7563CA248802E100F1F22B /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7563C9248802E100F1F22B /* FavoriteTableViewController.swift */; };
+		1E7563CC2488086A00F1F22B /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7563CB2488086A00F1F22B /* FavoriteTableViewCell.swift */; };
+		1E9BC28F2485DEC0003A3BEE /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9BC28D2485DEC0003A3BEE /* MyCollectionViewCell.swift */; };
+		1E9BC2902485DEC0003A3BEE /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E9BC28E2485DEC0003A3BEE /* MyCollectionViewCell.xib */; };
+		1E9BC2932485DED8003A3BEE /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9BC2912485DED8003A3BEE /* MyTableViewCell.swift */; };
+		1E9BC2942485DED8003A3BEE /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E9BC2922485DED8003A3BEE /* MyTableViewCell.xib */; };
+		1EE449CA2485BBF2005D26A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE449C92485BBF2005D26A8 /* AppDelegate.swift */; };
+		1EE449CC2485BBF2005D26A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE449CB2485BBF2005D26A8 /* SceneDelegate.swift */; };
+		1EE449CE2485BBF2005D26A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE449CD2485BBF2005D26A8 /* ViewController.swift */; };
+		1EE449D12485BBF2005D26A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE449CF2485BBF2005D26A8 /* Main.storyboard */; };
+		1EE449D32485BBF3005D26A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE449D22485BBF3005D26A8 /* Assets.xcassets */; };
+		1EE449D62485BBF3005D26A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE449D42485BBF3005D26A8 /* LaunchScreen.storyboard */; };
+		E54F9DE73C6E6C7883B9664C /* Pods_Jeopardy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C378466E26A7215E3F09BA /* Pods_Jeopardy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D7DB3E7D1D98ABDB493F775 /* Pods-Jeopardy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeopardy.debug.xcconfig"; path = "Target Support Files/Pods-Jeopardy/Pods-Jeopardy.debug.xcconfig"; sourceTree = "<group>"; };
+		1E1FD6F72485FDEA00062EF3 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		1E1FD6F9248612D200062EF3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1E7563C9248802E100F1F22B /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		1E7563CB2488086A00F1F22B /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		1E9BC28D2485DEC0003A3BEE /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E9BC28E2485DEC0003A3BEE /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		1E9BC2912485DED8003A3BEE /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		1E9BC2922485DED8003A3BEE /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		1EE449C62485BBF2005D26A8 /* Jeopardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jeopardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE449C92485BBF2005D26A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EE449CB2485BBF2005D26A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EE449CD2485BBF2005D26A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EE449D02485BBF2005D26A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EE449D22485BBF3005D26A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EE449D52485BBF3005D26A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EE449D72485BBF3005D26A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C378466E26A7215E3F09BA /* Pods_Jeopardy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jeopardy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C007C6166D1F9A0BA67496DE /* Pods-Jeopardy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeopardy.release.xcconfig"; path = "Target Support Files/Pods-Jeopardy/Pods-Jeopardy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EE449C32485BBF1005D26A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54F9DE73C6E6C7883B9664C /* Pods_Jeopardy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9BC28B2485DE7F003A3BEE /* MyTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E9BC2912485DED8003A3BEE /* MyTableViewCell.swift */,
+				1E9BC2922485DED8003A3BEE /* MyTableViewCell.xib */,
+				1E1FD6F72485FDEA00062EF3 /* HeaderCollectionReusableView.swift */,
+			);
+			path = MyTableViewCell;
+			sourceTree = "<group>";
+		};
+		1E9BC28C2485DE92003A3BEE /* MyCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E9BC28D2485DEC0003A3BEE /* MyCollectionViewCell.swift */,
+				1E9BC28E2485DEC0003A3BEE /* MyCollectionViewCell.xib */,
+			);
+			path = MyCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		1EE449BD2485BBF1005D26A8 = {
+			isa = PBXGroup;
+			children = (
+				1EE449C82485BBF2005D26A8 /* Jeopardy */,
+				1EE449C72485BBF2005D26A8 /* Products */,
+				E431D29E7E9E2EAEE13D3E85 /* Pods */,
+				3B5049AFCDF21A9869243FE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EE449C72485BBF2005D26A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EE449C62485BBF2005D26A8 /* Jeopardy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EE449C82485BBF2005D26A8 /* Jeopardy */ = {
+			isa = PBXGroup;
+			children = (
+				1E9BC28C2485DE92003A3BEE /* MyCollectionViewCell */,
+				1E9BC28B2485DE7F003A3BEE /* MyTableViewCell */,
+				1EE449C92485BBF2005D26A8 /* AppDelegate.swift */,
+				1EE449CB2485BBF2005D26A8 /* SceneDelegate.swift */,
+				1EE449CD2485BBF2005D26A8 /* ViewController.swift */,
+				1EE449CF2485BBF2005D26A8 /* Main.storyboard */,
+				1EE449D22485BBF3005D26A8 /* Assets.xcassets */,
+				1EE449D42485BBF3005D26A8 /* LaunchScreen.storyboard */,
+				1EE449D72485BBF3005D26A8 /* Info.plist */,
+				1E1FD6F9248612D200062EF3 /* DetailViewController.swift */,
+				1E7563C9248802E100F1F22B /* FavoriteTableViewController.swift */,
+				1E7563CB2488086A00F1F22B /* FavoriteTableViewCell.swift */,
+			);
+			path = Jeopardy;
+			sourceTree = "<group>";
+		};
+		3B5049AFCDF21A9869243FE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C378466E26A7215E3F09BA /* Pods_Jeopardy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E431D29E7E9E2EAEE13D3E85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D7DB3E7D1D98ABDB493F775 /* Pods-Jeopardy.debug.xcconfig */,
+				C007C6166D1F9A0BA67496DE /* Pods-Jeopardy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EE449C52485BBF1005D26A8 /* Jeopardy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE449DA2485BBF3005D26A8 /* Build configuration list for PBXNativeTarget "Jeopardy" */;
+			buildPhases = (
+				A8963E4FB34EAB30AB87F1FF /* [CP] Check Pods Manifest.lock */,
+				1EE449C22485BBF1005D26A8 /* Sources */,
+				1EE449C32485BBF1005D26A8 /* Frameworks */,
+				1EE449C42485BBF1005D26A8 /* Resources */,
+				D5426EECF1862F512C49AE94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jeopardy;
+			productName = Jeopardy;
+			productReference = 1EE449C62485BBF2005D26A8 /* Jeopardy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EE449BE2485BBF1005D26A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Rave BizzDev";
+				TargetAttributes = {
+					1EE449C52485BBF1005D26A8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 1EE449C12485BBF1005D26A8 /* Build configuration list for PBXProject "Jeopardy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EE449BD2485BBF1005D26A8;
+			productRefGroup = 1EE449C72485BBF2005D26A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EE449C52485BBF1005D26A8 /* Jeopardy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EE449C42485BBF1005D26A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9BC2942485DED8003A3BEE /* MyTableViewCell.xib in Resources */,
+				1EE449D62485BBF3005D26A8 /* LaunchScreen.storyboard in Resources */,
+				1EE449D32485BBF3005D26A8 /* Assets.xcassets in Resources */,
+				1E9BC2902485DEC0003A3BEE /* MyCollectionViewCell.xib in Resources */,
+				1EE449D12485BBF2005D26A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8963E4FB34EAB30AB87F1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jeopardy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5426EECF1862F512C49AE94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jeopardy/Pods-Jeopardy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jeopardy/Pods-Jeopardy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jeopardy/Pods-Jeopardy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE449C22485BBF1005D26A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE449CE2485BBF2005D26A8 /* ViewController.swift in Sources */,
+				1E7563CA248802E100F1F22B /* FavoriteTableViewController.swift in Sources */,
+				1EE449CA2485BBF2005D26A8 /* AppDelegate.swift in Sources */,
+				1E9BC28F2485DEC0003A3BEE /* MyCollectionViewCell.swift in Sources */,
+				1E7563CC2488086A00F1F22B /* FavoriteTableViewCell.swift in Sources */,
+				1E9BC2932485DED8003A3BEE /* MyTableViewCell.swift in Sources */,
+				1E1FD6F82485FDEA00062EF3 /* HeaderCollectionReusableView.swift in Sources */,
+				1EE449CC2485BBF2005D26A8 /* SceneDelegate.swift in Sources */,
+				1E1FD6FA248612D200062EF3 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EE449CF2485BBF2005D26A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE449D02485BBF2005D26A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EE449D42485BBF3005D26A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE449D52485BBF3005D26A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EE449D82485BBF3005D26A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EE449D92485BBF3005D26A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE449DB2485BBF3005D26A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7DB3E7D1D98ABDB493F775 /* Pods-Jeopardy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jeopardy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luat.Jeopardy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE449DC2485BBF3005D26A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C007C6166D1F9A0BA67496DE /* Pods-Jeopardy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jeopardy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = luat.Jeopardy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE449C12485BBF1005D26A8 /* Build configuration list for PBXProject "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE449D82485BBF3005D26A8 /* Debug */,
+				1EE449D92485BBF3005D26A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EE449DA2485BBF3005D26A8 /* Build configuration list for PBXNativeTarget "Jeopardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE449DB2485BBF3005D26A8 /* Debug */,
+				1EE449DC2485BBF3005D26A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EE449BE2485BBF1005D26A8 /* Project object */;
+}
